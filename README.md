@@ -1,51 +1,53 @@
 # 📊 YesMobiles Funnel Analysis
 
-## 🚀 Overview
-YesMobiles has recently launched a **new mobile handset** and is closely monitoring its **sales funnel** to optimize conversions and identify any issues in the user journey. The company tracks user interactions on a dedicated **product webpage** to analyze **drop-off rates** and engagement patterns.
+## 🎯 Objective
+YesMobiles have recently launched a new mobile handset and wants to keep a close watch on its sales funnel in order to find any issues in the user journey. The company uses its website to sell its mobiles and for this mobile launch, it has created a separate webpage to track the user interaction with the webpage.
 
-## 🎯 Objectives
-- **Dropout Rate Analysis**: Identify where users are leaving the buying journey.
-- **User Journey Analysis**: Understand how much time users spend at each stage.
-- **Conversion Optimization**: Improve the overall conversion rate by addressing key bottlenecks.
+### 🔍 Drop-out Rate Analysis
+The company wants to analyze the drop-out rates across various user categories in order to find issues in the user journey.
 
-## 📌 Data Description
-The dataset contains user interactions from **Mumbai** and **Bengaluru**, categorized by **gender**, and tracks their progression through the following shopping stages:
+### 🛤️ User Journey
+To understand the user journey in terms of time spent by the user at various stages of the funnel.
 
-- **User Interaction Data**: Logs each interaction with timestamps.
-- **User Activity Data**: Tracks movement across the funnel (Browsing → Wishlist → Cart → Purchase).
-- **User Category Data**: Segments users based on gender (Male/Female).
+## 📑 Data
+The data provided is for a set of users who visited the webpage from cities of **Mumbai and Bengaluru**, categorized as **male or female** based on profile data available with the company. All these users browsed the webpage for the first time on **1st August 2024**.
 
-## 📊 Funnel Stages & User Dropout Rates
+- 📌 **User Interaction Details**: This dataset captures each interaction of the user and the corresponding timestamp.
+- 📌 **User Activity Data**: This dataset tracks the progression of users through various stages of their shopping journey, from initial browsing to the final purchase, with timestamps of each action.
+- 📌 **User Category**: This dataset provides the information of user category with user ID.
 
-| Stage            | Male Users | Dropout Rate (Male) | Avg. Time Spent (Male) | Female Users | Dropout Rate (Female) | Avg. Time Spent (Female) |
-|-----------------|------------|----------------------|------------------------|--------------|------------------------|--------------------------|
-| Browsing       | 20         | -                    | -                      | 10           | -                      | -                        |
-| Added to Wishlist | 7         | 65%                 | 2.80 days              | 5            | 50%                    | 0.75 days                |
-| Added to Cart  | 5         | 28.57%              | 1.25 days              | 4            | 20%                    | 1.00 day                 |
-| Purchased      | 4         | 20%                 | -                      | 3            | 25%                    | -                        |
+## 👥 Gender-wise User Engagement and Dropout Analysis
 
-### 📈 Overall Funnel Performance
+### 👨‍💼 Male Users:
+- **🛒 Browsing**: 20 users, **Dropout Rate**: 2.29%, **Average Time Spent**: -
+- **📌 Added to Wishlist**: 7 users, **Dropout Rate**: 65.00%, **Average Time Spent**: 2.80 days
+- **🛍️ Added to Cart**: 5 users, **Dropout Rate**: 28.57%, **Average Time Spent**: 1.25 days
+- **✅ Purchased**: 4 users, **Dropout Rate**: 20.00%, **Average Time Spent**: -
 
-| Metric                | All Users | Male | Female |
-|----------------------|----------|------|--------|
-| Conversion Rate     | 23.33%   | 20%  | 30%    |
-| Avg. Time Spent    | 4.70 days | 6.34 days | 2.55 days |
+### 👩‍💼 Female Users:
+- **🛒 Browsing**: 10 users, **Dropout Rate**: 0.80%, **Average Time Spent**: -
+- **📌 Added to Wishlist**: 5 users, **Dropout Rate**: 50.00%, **Average Time Spent**: 0.75 days
+- **🛍️ Added to Cart**: 4 users, **Dropout Rate**: 20.00%, **Average Time Spent**: 1.00 days
+- **✅ Purchased**: 3 users, **Dropout Rate**: 25.00%, **Average Time Spent**: -
 
-## 🔍 Key Insights
-✅ **Females have a higher conversion rate (30%) compared to males (20%)**  
-✅ **Males spend more time (6.34 days) in the funnel compared to females (2.55 days)**  
-✅ **Wishlist drop-off is a major issue, with 60% of users not moving forward**  
+## 📊 User Engagement and Dropout Analysis
+- **🛒 Browsing**: 30 users, **Dropout Rate**: 1.67%, **Average Time Spent**: -
+- **📌 Added to Wishlist**: 12 users, **Dropout Rate**: 60.00%, **Average Time Spent**: 1.89 days
+- **🛍️ Added to Cart**: 9 users, **Dropout Rate**: 25.00%, **Average Time Spent**: 1.14 days
+- **✅ Purchased**: 7 users, **Dropout Rate**: 22.22%, **Average Time Spent**: -
 
-## 🎯 Actionable Recommendations
-- **Optimize Wishlist & Cart Stages**: Offer targeted discounts or reminders.
-- **Retarget Users Based on Engagement**: Use personalized email/SMS campaigns.
-- **Streamline Checkout Process**: Reduce unnecessary steps to minimize friction.
-- **A/B Testing for UX Improvements**: Test different designs to enhance engagement and conversions.
+## 🔎 Insights from Analysis
 
-## 🛠 Tools Used
-- **Data Analysis & Visualization**: Tableau, Power BI, Python (Pandas, NumPy, Matplotlib)
-- **Funnel Tracking**: Amplitude, Google Analytics
-- **Optimization Techniques**: A/B Testing, Customer Segmentation
+### 📌 Overall Funnel Analysis
+- **⚡ Conversion Rate**:
+  - 🏆 All Users: 23.33%
+  - 👨 Male: 20.00%
+  - 👩 Female: 30.00%
+- **⏳ Average Time Spent**:
+  - 🏆 All Users: 4.70 days
+  - 👨 Male: 6.34 days
+  - 👩 Female: 2.55 days
 
-## 📢 Conclusion
-By understanding the **user journey**, YesMobiles can improve **sales funnels**, **reduce drop-offs**, and **increase conversions**. These insights enable **strategic decision-making** for better engagement and revenue growth.
+### 💡 Key Takeaways:
+- ✅ **23.33% of users who browse the website end up purchasing the mobile.**
+- ✅ **The Conversion Rate of Females (30%) is higher than that of Males (20%).**
